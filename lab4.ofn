@@ -1,0 +1,522 @@
+Prefix(:=<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12>
+Annotation(rdfs:comment "онтологическая модель загрузки видео на Youtube")
+
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Banner>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Button>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Click>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Dropdown>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Input>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Modal>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#ProgressBar>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#RadioButton>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Screen>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Scroll>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#TextArea>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Type>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Users>))
+Declaration(Class(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#View>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_причиной>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_целевым_действием_для>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#иметь_состояние>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_действие>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_шаг>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью>))
+Declaration(DataProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename>))
+Declaration(DataProperty(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action6>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action7>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action8>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action9>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event6>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event7>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event8>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface11>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface12>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface6>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface7>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface8>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface9>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#User1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_add_video_button_click>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_description_textarea_type>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_publish_button_click>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_title_input_type>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_button_click>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_modal_view>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_progress_bar_view>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_success_screen_view>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_visibility_public_radio_click>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#interface10>))
+Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_причиной> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_причиной>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_причиной> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason>)
+ObjectPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_причиной> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step>)
+
+# Object Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_целевым_действием_для> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_целевым_действием_для>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_целевым_действием_для> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step>)
+ObjectPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_целевым_действием_для> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason>)
+
+# Object Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action>)
+ObjectPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event>)
+
+# Object Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#иметь_состояние> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#иметь_состояние>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#иметь_состояние> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Users>)
+ObjectPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#иметь_состояние> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason>)
+
+# Object Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step>)
+ObjectPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action>)
+
+# Object Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action>)
+ObjectPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+# Object Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_действие> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_действие>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_действие> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action>)
+ObjectPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_действие> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action>)
+
+# Object Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_шаг> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_шаг>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_шаг> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step>)
+ObjectPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_шаг> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step>)
+
+# Object Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+ObjectPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename>)
+
+DataPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+DataPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name>)
+
+DataPropertyDomain(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> owl:Thing)
+DataPropertyRange(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Banner> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Banner>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Banner> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Button> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Button>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Button> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Click> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Click>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Click> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Dropdown> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Dropdown>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Dropdown> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Input> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Input>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Input> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Modal> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Modal>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Modal> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#ProgressBar> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#ProgressBar>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#ProgressBar> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#RadioButton> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#RadioButton>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#RadioButton> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Screen> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Screen>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Screen> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Scroll> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Scroll>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Scroll> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#TextArea> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#TextArea>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#TextArea> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Type> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Type>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Type> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action>)
+
+# Class: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#View> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#View>)
+
+SubClassOf(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#View> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action1> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action1>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_button_click>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_действие> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action1> "Клик по кнопке \"Создать\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_add_video_button_click>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_действие> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action3>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2> "Клик по кнопке \"Добавить видео\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action3> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action3>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action3> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_modal_view>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action3> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_действие> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action3> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action3> "Отображение модального окна загрузки")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_progress_bar_view>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface6>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_действие> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action5>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4> "Отображение прогресс-бара")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action5> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action5>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action5> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action5> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_title_input_type>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action5> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface8>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action5> "Ввод текста в поле \"Название\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action6> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action6>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action6>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action6> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action6> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_description_textarea_type>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action6> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface9>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action6> "Ввод текста в поле \"Описание\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action7> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action7>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action7>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action7> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event6>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action7> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_visibility_public_radio_click>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action7> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#interface10>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_действие> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action7> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action8>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action7> "Выбор настроек \"Видимость\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action8> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action8>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action8>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action8> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event7>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action8> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_publish_button_click>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action8> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface11>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action8> "Клик по кнопке \"Опубликовать\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action9> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action9>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action9>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action9> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event8>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action9> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_success_screen_view>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action9> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface12>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action9> "Отображение экрана \"Загрузка завершена\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event1> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event1>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event1>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event1> "upload_dialog_opened")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event2> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event2>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event2>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event2> "video_file_selected")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event3> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event3>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event3>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event3> "video_upload_progress")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event4> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event4>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event4>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event4> "title_input_focused")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event5> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event5>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event5>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event5> "description_input_focused")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event6> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event6>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event6>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event6> "visibility_set_to_public")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event7> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event7>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event7>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event7> "publish_button_clicked")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event8> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event8>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event8>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event8> "video_published_success")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface1> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface1>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Button> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface2>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface1> "upload button")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface1> "Кнопка \" Создать\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface11> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface11>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Button> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface11>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface11> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface7>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface11> "publish button")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface11> "Кнопка опубликовать")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface12> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface12>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Screen> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface12>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface12> "upload success screen")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface12> "Экран \"Загрузка завершена\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface2> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface2>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Dropdown> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface2>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface2> "upload dropdown")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface2> "Выпадающее окно \"Создать\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface3> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface3>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Button> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface3> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface2>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface3> "add video button")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface3> "Кнопка \"Добавить видео\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface4> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface4>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Modal> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface4>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface4> "uload modal")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface4> "Модально еокно загрузчика")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface5> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface5>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Input> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface5>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface5> "file input")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface5> "Инпут для загрузки видео")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface6> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface6>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#ProgressBar> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface6>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface6> "upload progress bar")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface6> "Прогресс-бар загрузки")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface7> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface7>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Screen> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface7>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface7> "details screen")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface7> "Экран редактирования деталей")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface8> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface8>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Input> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface8>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface8> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface7>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface8> "titlte input")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface8> "Поле \"Название видео\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface9> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface9>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#TextArea> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface9>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface9> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface7>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface9> "description textarea")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface9> "Поле \"Описание видео\"")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason1> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason1>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_причиной> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step1>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason1> "Желание поделиться новым видео")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason2> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason2>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_причиной> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason2> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step5>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason2> "Необходимость опубликовать запись")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason3> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason3>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#быть_целевым_действием_для> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason3> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step5>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason3> "Стремление увеличить аудиторию")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step1> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step1>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_шаг> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step2>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step1> "Инициация загрузки")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step2> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step2>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step2> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step2> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_шаг> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step2> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step3>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step2> "Выбор файла видео")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step3> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step3>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step3> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step3> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action6>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_шаг> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step3> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step4>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step3> "Ввод метаданных")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step4> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step4>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step4> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action7>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предшествовать_шаг> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step4> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step5>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step4> "Настройка параметров публикации")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step5> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step5>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step5> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action8>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#материализовать_в> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step5> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action9>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Step5> "Завершение и публикация")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#User1> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#User1>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Users> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#User1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#иметь_состояние> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#User1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#иметь_состояние> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#User1> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Reason3>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#User1> "Автор контента")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_add_video_button_click> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_add_video_button_click>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_add_video_button_click>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_add_video_button_click> "add_video_button_click")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_description_textarea_type> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_description_textarea_type>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_description_textarea_type>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_description_textarea_type> "description_textarea_type")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_publish_button_click> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_publish_button_click>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_publish_button_click>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_publish_button_click> "publish_button_click")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_title_input_type> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_title_input_type>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_title_input_type>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_title_input_type> "title_input_type")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_button_click> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_button_click>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_button_click>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_button_click> "upload_button_click")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_modal_view> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_modal_view>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_modal_view>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_modal_view> "upload_modal_view")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_progress_bar_view> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_progress_bar_view>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_progress_bar_view>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_progress_bar_view> "upload_progress_bar_view")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_success_screen_view> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_success_screen_view>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_success_screen_view>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_upload_success_screen_view> "upload_success_screen_view")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_visibility_public_radio_click> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_visibility_public_radio_click>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_visibility_public_radio_click>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#event_visibility_public_radio_click> "visibility_public_radio_click")
+
+# Individual: <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#interface10> (<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#interface10>)
+
+ClassAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#RadioButton> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#interface10>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#являться_частью> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#interface10> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Interface7>)
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#interface10> "visibility public radio")
+DataPropertyAssertion(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> <http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#interface10> "Радио-кнопка \"Публичный\"")
+
+
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "S1") Body(ClassAtom(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Action> Variable(:a)) ObjectPropertyAtom(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#предполагать_взаимодействие_с> Variable(:a) Variable(:i)) DataPropertyAtom(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#codename> Variable(:i) "upload_modal") ClassAtom(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#View> Variable(:a)) ClassAtom(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#Event> Variable(:e)) DataPropertyAtom(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#name> Variable(:e) "upload_modal_view"))Head(ObjectPropertyAtom(<http://www.semanticweb.org/анна/ontologies/2025/10/untitled-ontology-12#вызывать> Variable(:a) Variable(:e))))
+)
